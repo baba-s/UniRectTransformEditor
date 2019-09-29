@@ -4,7 +4,7 @@ RectTransform の Inspector にリセット、フィット、四捨五入、AddC
 
 ![](https://img.shields.io/badge/Unity-2018.4%2B-red.svg)
 ![](https://img.shields.io/badge/.NET-4.x-orange.svg)
-[![](https://img.shields.io/github/license/baba-s/uni-recttransform-editor".svg)](https://github.com/baba-s/uni-recttransform-editor"/blob/master/LICENSE)
+[![](https://img.shields.io/github/license/baba-s/uni-recttransform-editor.svg)](https://github.com/baba-s/uni-recttransform-editor/blob/master/LICENSE)
 
 ## インストール
 
