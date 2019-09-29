@@ -29,3 +29,18 @@ manifest.json に上記の記述を追加します
 |![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190929/20190929130355.png)|VerticalLayoutGroup を AddComponent|
 |![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190929/20190929130352.png)|GridLayoutGroup を AddComponent|
 |![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190929/20190929130347.png)|ContentSizeFitter を AddComponent|
+
+## 注意
+
+![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190929/20190929130920.png)
+
+```
+ArgumentException: Object at index 0 is null
+UnityEditor.SerializedObject..ctor (UnityEngine.Object[] objs, UnityEngine.Object context) (at C:/buildslave/unity/build/Editor/Mono/SerializedObject.bindings.cs:39)
+UnityEditor.Editor.GetSerializedObjectInternal () (at C:/buildslave/unity/build/Editor/Mono/Inspector/Editor.cs:525)
+UnityEditor.Editor.get_serializedObject () (at C:/buildslave/unity/build/Editor/Mono/Inspector/Editor.cs:432)
+UnityEditor.RectTransformEditor.OnEnable () (at C:/buildslave/unity/build/Editor/Mono/Inspector/RectTransformEditor.cs:100)
+```
+
+Uni RectTransform Editor を Unity プロジェクトに追加すると  
+スクリプトのコンパイル完了時や Unity 再生時に上記のエラーが発生してしまうのでご了承ください
