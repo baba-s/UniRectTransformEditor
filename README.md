@@ -9,7 +9,7 @@ RectTransform の Inspector にリセット、フィット、四捨五入、AddC
 ## インストール
 
 ```json
-"com.baba_s.uni-recttransform-editor"": "https://github.com/baba-s/uni-recttransform-editor".git",
+"com.baba_s.uni-recttransform-editor": "https://github.com/baba-s/uni-recttransform-editor.git",
 ```
 
 manifest.json に上記の記述を追加します  
