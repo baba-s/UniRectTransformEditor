@@ -8,7 +8,7 @@ using UnityEngine.UI;
 namespace UniRectTransformEditor
 {
 	[CustomEditor( typeof( RectTransform ), true )]
-	public class RectTransformEditor : Editor
+	internal class RectTransformEditor : Editor
 	{
 		private const string RECORD_NAME = nameof( RectTransformEditor );
 
