@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace KoganeUnityLib.Internal
+namespace UniRectTransformEditor.Internal
 {
 	internal static class ExtensionMethods
 	{

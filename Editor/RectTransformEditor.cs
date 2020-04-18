@@ -1,11 +1,11 @@
-﻿using KoganeUnityLib.Internal;
-using System;
+﻿using System;
 using System.Reflection;
+using UniRectTransformEditor.Internal;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace KoganeUnityLib
+namespace UniRectTransformEditor
 {
 	[CustomEditor( typeof( RectTransform ), true )]
 	public class RectTransformEditor : Editor
@@ -164,7 +164,7 @@ namespace KoganeUnityLib
 
 				GUI.enabled = !hasComponent;
 
-				if ( GUILayout.Button( EditorGUIUtility.IconContent( iconName ) ) )
+				if ( GUILayout.Button( EditorGUIUtility.IconContent( iconName ), GUILayout.Height( 20 ) ) )
 				{
 					Undo.AddComponent<T1>( m_gameObject );
 				}
