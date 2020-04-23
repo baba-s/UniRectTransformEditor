@@ -4,7 +4,7 @@ RectTransform の Inspector にリセット、フィット、四捨五入、AddC
 
 ## 使い方
 
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190929/20190929130215.png)
+![2020-04-23_200710](https://user-images.githubusercontent.com/6134875/80092616-0ac17900-859e-11ea-85f5-3c4b25ee75dc.png)
 
 |項目|内容|
 |:--|:--|
